@@ -1,0 +1,4 @@
+baseURL = 'https://ruoranl.github.io/github-copilot-best-practice-labs/'
+languageCode = 'en-us'
+title = 'Copilot Training Labs'
+theme = 'hugo-book'
