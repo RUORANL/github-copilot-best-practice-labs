@@ -11,29 +11,12 @@ theme = 'hugo-book'
 [markup.tableOfContents]
   startLevel = 1
 
-[menu]
-# [[menu.before]]
-[[menu.after]]
-  name = "实验1：体验GitHub Copilot基本功能"
-  url = "/1"
-  weight = 10
-
-[[menu.after]]
-  name = "实验2：体验GitHub Copilot高级功能"
-  url = "/2"
-  weight = 20
-
-[[menu.after]]
-  name = "实验3：理解GitHub Copilot的上下文机制"
-  url = "/3"
-  weight = 30
-
-[[menu.after]]
-  name = "实验4：探索GitHub Copilot的Prompt技巧"
-  url = "/4"
-  weight = 40
-
-[[menu.after]]
-  name = "实验5：使用GitHub Copilot构建完整项目"
-  url = "/5"
-  weight = 50
+[menus]
+  [[menus.main]]
+    name = 'Home'
+    pageRef = '/'
+    weight = 10
+  [[menus.main]]
+    name = 'Labs'
+    pageRef = '/labs'
+    weight = 20

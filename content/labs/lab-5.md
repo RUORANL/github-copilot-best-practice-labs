@@ -1,7 +1,6 @@
 +++
 title = '实验5：使用GitHub Copilot构建完整项目'
 date = 2024-06-26T02:49:40+08:00
-slug = '5'
 +++
 
 ## 实验5：使用GitHub Copilot构建完整项目
