@@ -3,9 +3,9 @@ title = 'My First Lab'
 date = 2024-06-26T02:49:40+08:00
 +++
 
-### 实验手册：体验和掌握GitHub Copilot功能
+## 实验手册：体验和掌握GitHub Copilot功能
 
-#### 1. 环境准备
+###环境准备
 
 在开始实验之前，确保你的开发环境已准备就绪：
 - 安装最新版本的Visual Studio Code（VS Code）。

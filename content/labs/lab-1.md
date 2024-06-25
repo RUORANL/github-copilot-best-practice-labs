@@ -1,3 +1,9 @@
++++
+title = '实验1：体验GitHub Copilot基本功能'
+date = 2024-06-26T02:49:40+08:00
+url = '/1'
++++
+
 ## 实验1：体验GitHub Copilot基本功能
 
 #### 代码补全
