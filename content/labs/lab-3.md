@@ -1,7 +1,7 @@
 +++
 title = '实验3：理解GitHub Copilot的上下文机制'
 date = 2024-06-26T02:49:40+08:00
-url = '/2'
+slug = '3'
 +++
 
 ## 实验3：理解GitHub Copilot的上下文机制

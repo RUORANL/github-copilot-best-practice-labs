@@ -1,7 +1,7 @@
 +++
 title = '实验2：体验GitHub Copilot高级功能'
 date = 2024-06-26T02:49:40+08:00
-url = '/2'
+slug = '2'
 +++
 
 ## 实验2：体验GitHub Copilot高级功能

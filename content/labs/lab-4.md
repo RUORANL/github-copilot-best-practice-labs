@@ -1,7 +1,7 @@
 +++
 title = '实验4：探索GitHub Copilot的Prompt技巧'
 date = 2024-06-26T02:49:40+08:00
-url = '/4'
+slug = '4'
 +++
 
 ## 实验4：探索GitHub Copilot的Prompt技巧
