@@ -5,54 +5,47 @@ date = 2024-06-26T02:49:40+08:00
 
 ## 实验2：体验GitHub Copilot高级功能
 
-#### 体验GitHub Copilot on Github.com
+### 体验GitHub Copilot on Github.com
 
 **目标**：
 体验GitHub Copilot在GitHub网站上的高级功能。
 
+#### 1. **PR摘要生成**：
+示例1：在PR页面中，自动生成PR摘要，包含变更的描述和受影响的文件列表。
+
 **步骤**：
-1. **使用GitHub专属技能**：
-   - 在GitHub PR（Pull Request）页面上，使用Copilot的专属技能进行代码审查和建议。
-   - 示例：在PR页面中使用 `@github` 获取代码改进建议。
+   - 在GitHub PR（Pull Request）页面上，创建PR
+   ![Github Copilot Enterprise 1](/github-copilot-best-practice-labs/github_dot_com_4.png)
+   - 使用Copilot生成Pull Request摘要
+   ![Github Copilot Enterprise 2](/github-copilot-best-practice-labs/github_dot_com_5.png)
+   - 查看生成的摘要信息
+   ![Github Copilot Enterprise 3](/github-copilot-best-practice-labs/github_dot_com_6.png)
 
-2. **PR摘要生成**：
-   - 自动生成PR摘要，包含变更的描述和受影响的文件列表。
-   - 示例：创建一个新的PR，让Copilot生成摘要，描述本次修改的内容。
+#### 2. **对代码库进行索引作为上下文**：
+示例1：对选中的代码库进行索引，获得有针对性的准确答案。
 
-#### 创建和管理知识库
+**步骤**：
+   - 在GitHub Copilot Chat界面上，点击按钮对Repo进行索引
+   ![Github Copilot Enterprise 4](/github-copilot-best-practice-labs/github_dot_com_2.png)
+
+   - 提问相关问题时自动查询相关问题
+   ![Github Copilot Enterprise 5](/github-copilot-best-practice-labs/github_dot_com_3.png)
+
+
+#### 3. 创建和使用知识库
 
 **目标**：
-创建和管理知识库，以便在Copilot中使用。
+创建知识库，以便在Copilot中使用。
+
+示例1：创建知识库。
 
 **步骤**：
-1. **创建知识库**：
+   - 准备好Markdown格式的文档，并上传到用于构建知识库的Repo中
    - 在GitHub上创建一个知识库，存储项目的文档和代码示例。
-   - 示例：创建一个名为 `project-knowledge-base` 的仓库，添加相关文档。
+   ![Github Copilot Knowledge Base 1](/github-copilot-best-practice-labs/create_knowledge_base_1.png)
 
-2. **基于知识库的问答**：
+示例2：基于知识库的问答
+
+**步骤**：
    - 在Copilot中使用知识库进行问答，获取更相关的回答。
-   - 示例：在聊天中询问 `如何使用我们项目中的自定义库？`，查看基于知识库的回答。
-
-#### 配置内容排除策略
-
-**目标**：
-配置Copilot的内容排除策略，确保敏感信息不会被使用。
-
-**步骤**：
-1. **配置策略**：
-   - 在GitHub设置中配置内容排除策略。
-   - 示例：排除包含敏感信息的文件夹，如 `config/`。
-
-2. **验证配置**：
-   - 确认排除策略生效，确保Copilot不会使用被排除的内容。
-   - 示例：尝试在排除的文件中获取建议，确认Copilot不会提供。
-
-#### 审计日志
-
-**目标**：
-了解并使用审计日志功能，跟踪Copilot的使用情况。
-
-**步骤**：
-1. **查看审计日志**：
-   - 在GitHub的设置中查看Copilot的使用情况。
-   - 示例：查看哪些用户在什么时间使用了Copilot，以及进行了哪些操作。
+   ![Github Copilot Knowledge Base 2](/github-copilot-best-practice-labs/create_knowledge_base_2.png)
